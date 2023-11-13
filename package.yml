@@ -1,13 +1,16 @@
 package:
   format-version: "1.0.0"
-  name: "replaceme"
+  name: "wireless_system_services"
   type: "api"
   status: "beta"
   required: false
   version: "1.0.0"
 
   dependencies:
-    - name: "csp"
+    - name: "core"
       type: "package"
-      version: "3.14.0"
+      version: "v3.13.1"
+    - name: "wireless_rnbd"
+      type: "package"
+      version: "v2.0.0"
 
