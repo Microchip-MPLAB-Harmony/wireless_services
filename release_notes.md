@@ -3,3 +3,16 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+### Wireless system services Release v1.0.0
+### New Features
+
+- This release includes support for 
+    - **OTA Service** for BLE RNBD451 device.
+### Known Issues
+### Development Tools
+
+* [MPLAB® X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
+* [MPLAB® XC32 C/C++ Compiler v4.30](https://www.microchip.com/mplab/compilers)
+* MPLAB® X IDE plug-ins:
+    * MPLAB® Code Configurator (MCC) v5.3.7    
+

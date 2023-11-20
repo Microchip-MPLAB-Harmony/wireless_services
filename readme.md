@@ -1,7 +1,7 @@
 ﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
-# MPLAB® Harmony 3 replaceme
+# MPLAB® Harmony 3 wireless system services
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
 
@@ -11,7 +11,7 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 replaceme solutions and example applications. Quickly incorporate connectivity to your designs with replaceme ICs, modules, software and development kits that make connecting effortless for your customers. Our comprehensive replaceme portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to the following links for release notes, training materials, and interface reference information.
+This repository contains the MPLAB® Harmony 3 wireless system services for various host MCU32 devices. Wireless system services abstract out the complexities of a networked system design and simplifies development using host MCU. Refer to the following links for more information about each system service.
 
 - [Release Notes](./release_notes.md)
 - [MPLAB® Harmony License](Microchip_SLA001.md)
@@ -21,10 +21,10 @@ This repository contains the MPLAB® Harmony 3 replaceme solutions and example a
 
 | Folder     | Description                                               |
 | ---        | ---                                                       |
-| apps       | Example applications for replaceme library components     |
-| config     | replaceme module configuration file                       |
-| docs       | replaceme library help documentation                      |
-| drivers    | Driver/Firmware files for different products              |
+| ble       | Transport layer code for ble RNBD451 device    |
+| common     | Contains wireless service code and configuration files.                       |
+| docs       | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use github pages of this repository for viewing it online.                      |
+| config    |  Contains module configuration file              |
 
 
 ____
