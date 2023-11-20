@@ -34,7 +34,6 @@ def loadModule():
     coreFamily   = ATDF.getNode( "/avr-tools-device-file/devices/device" ).getAttribute( "family" )
     if ((any(x == coreFamily for x in unSupportedFamilies) == True)):
         return
-    print("Error!!!")
     print("Load Module: OTA_Service")
 
     for WirelessSystemServicesComponent in WirelessSystemServicesComponents:
