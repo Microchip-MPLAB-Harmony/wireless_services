@@ -98,6 +98,19 @@ static OTA_FILE_HANDLER_DATA otaFileHandlerData =
     <#lt>    return crc;
     <#lt>}
 <#else>
+<#if __PROCESSOR?matches("PIC32M.*") == true>
+<#if core.COVERITY_SUPPRESS_DEVIATION?? && core.COVERITY_SUPPRESS_DEVIATION>
+    <#if core.COMPILER_CHOICE == "XC32">
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunknown-pragmas"
+    </#if>
+</#if>
+/* Following MISRA-C rules are deviated in the below code block */
+/* MISRA C-2012 Rule 11.6 */
+<#if core.COVERITY_SUPPRESS_DEVIATION?? && core.COVERITY_SUPPRESS_DEVIATION>
+#pragma coverity compliance block deviate "MISRA C-2012 Rule 11.6"  "H3_MISRAC_2012_R_11_6_DR_1"
+</#if>
+</#if>
     <#lt>/* Function to Generate CRC by reading the firmware programmed into internal flash */
     <#lt>static uint32_t OTA_SERVICE_FH_CRCGenerate(uint32_t start_addr, uint32_t size)
     <#lt>{
@@ -137,6 +150,17 @@ static OTA_FILE_HANDLER_DATA otaFileHandlerData =
 
     <#lt>    return crc;
     <#lt>}
+<#if __PROCESSOR?matches("PIC32M.*") == true>
+<#if core.COVERITY_SUPPRESS_DEVIATION?? && core.COVERITY_SUPPRESS_DEVIATION>
+#pragma coverity compliance end_block "MISRA C-2012 Rule 11.6"
+</#if>
+/* MISRAC 2012 deviation block end */
+<#if core.COVERITY_SUPPRESS_DEVIATION?? && core.COVERITY_SUPPRESS_DEVIATION>
+    <#if core.COMPILER_CHOICE == "XC32">
+#pragma GCC diagnostic pop
+    </#if>
+</#if>
+</#if>
 
 </#if>
 <#else>
@@ -213,9 +237,9 @@ static bool OTA_SERVICE_FH_WaitForXferComplete(void)
     <#lt>void OTA_SERVICE_FH_TriggerReset(void)
     <#lt>{
     <#lt>    /* Perform system unlock sequence */
-    <#lt>    SYSKEY = 0x00000000;
-    <#lt>    SYSKEY = 0xAA996655;
-    <#lt>    SYSKEY = 0x556699AA;
+    <#lt>    SYSKEY = 0x00000000U;
+    <#lt>    SYSKEY = 0xAA996655U;
+    <#lt>    SYSKEY = 0x556699AAU;
 
     <#lt>    RSWRSTSET = _RSWRST_SWRST_MASK;
     <#lt>    (void)RSWRST;
@@ -249,7 +273,7 @@ bool OTA_SERVICE_FH_CtrlBlkRead(OTA_CONTROL_BLOCK *controlBlock, uint32_t length
 
         appMetaDataAddress  = ((otaMemoryStart + otaMemorySize) - BUFFER_SIZE(blockSize, ctrlBlkSize));
 
-        for (count = 0; count < length; count += OTA_CONTROL_BLOCK_PAGE_SIZE)
+        for (count = 0U; count < length; count += OTA_CONTROL_BLOCK_PAGE_SIZE)
         {
             if (${DRIVER_USED}_Read(otaFileHandlerData.handle, ptrBuffer, OTA_CONTROL_BLOCK_PAGE_SIZE, appMetaDataAddress) != true)
             {
@@ -304,7 +328,7 @@ bool OTA_SERVICE_FH_CtrlBlkWrite(OTA_CONTROL_BLOCK *controlBlock, uint32_t lengt
         status = OTA_SERVICE_FH_WaitForXferComplete();
 </#if>
 
-        for (count = 0; count < length; count += OTA_CONTROL_BLOCK_PAGE_SIZE)
+        for (count = 0U; count < length; count += OTA_CONTROL_BLOCK_PAGE_SIZE)
         {
             if (${DRIVER_USED}_PageWrite(otaFileHandlerData.handle, ptrBuffer, appMetaDataAddress) != true)
             {
