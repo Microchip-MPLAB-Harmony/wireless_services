@@ -1,6 +1,6 @@
 package:
   format-version: "1.0.0"
-  name: "wireless_system_services"
+  name: "wireless_services"
   type: "api"
   status: "beta"
   required: false

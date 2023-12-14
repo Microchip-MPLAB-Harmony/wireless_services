@@ -1,4 +1,5 @@
-"""*****************************************************************************
+<#--
+/*******************************************************************************
 * Copyright (C) 2023 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
@@ -19,10 +20,8 @@
 * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
-*****************************************************************************"""
-
-
-def loadModule():
-
-    #creating OTA Service component
-    execfile(Module.getPath() + "services/common/ota/config/wls_ota.py")
+ *******************************************************************************/
+-->
+<#if (OTA_SERVICE_ENABLE?? && OTA_SERVICE_ENABLE == true)>
+#include "ota_service/ota_service.h"
+</#if>
