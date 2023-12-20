@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keywords publicationid="GUID-C87A0420-E63C-4C60-946B-958087C78A4F"
+          language="en-US"
+          version="1"
+          documenttitle="MPLAB® Harmony Wireless Services"
+          pubtype="Online Reference"
+          pubsubtype=""
+          pubuserguidesubtype=""
+          pubproducthierarchy=""
+          devices=""
+          revisiondate="15/11/2023 00:00:00"
+          revisionletter="A"
+          isbn=""
+          pubid=""
+          reachid=""
+          description=""
+          lastmodified="20/12/2023 18:03:17"
+          covertitle="MPLAB® Harmony Wireless Services "
+          frontcover="">
+   <keyworditem topicid="GUID-F504A2BE-0F28-49E9-8F4A-40C61A8DADA1"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Tasks</register>
+      <title>OTA_SERVICE_Tasks</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Tasks</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-C561467B-299A-43C2-9D71-32B1BA2BCD44"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_Tasks</register>
+      <title>OTA_SERVICE_Transport_Tasks</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_Tasks</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-7D50DABA-10E8-4576-BB61-458197CF5A65"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_OTA_Initialize</register>
+      <title>OTA_SERVICE_OTA_Initialize</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_OTA_Initialize</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-ADDBE456-881C-4DC7-BC6B-4777C154D400"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_FHMsgReceive</register>
+      <title>OTA_SERVICE_Transport_FHMsgReceive</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_FHMsgReceive</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-5C0E4708-4FDE-47BB-B065-5373D409E2EA"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVIC_Task_UpdateUser</register>
+      <title>OTA_SERVIC_Task_UpdateUser</title>
+      <bitfield/>
+      <keyword>OTA_SERVIC_Task_UpdateUser</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-FBE157F6-70A7-4241-8026-7E59103E3C22"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_CallBackReg</register>
+      <title>OTA_CallBackReg</title>
+      <bitfield/>
+      <keyword>OTA_CallBackReg</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-AB5C2131-20B9-4F80-A29E-E4CB43F8C831"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_OTA_Start</register>
+      <title>OTA_SERVICE_OTA_Start</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_OTA_Start</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-15795D88-C6D4-438A-882F-74D946AB8E53"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_initialize</register>
+      <title>OTA_SERVICE_Transport_initialize</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_initialize</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-EFE06E46-BAC7-48D0-8419-9BB38944A4DF"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_Complete</register>
+      <title>OTA_SERVICE_Transport_Complete</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_Complete</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-0B03E4E3-52DA-4D47-A3C4-66735228B561"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_MsgRecv</register>
+      <title>OTA_SERVICE_Transport_MsgRecv</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_MsgRecv</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-DA0320D3-0E0C-41BF-9EA1-8E593EA30287"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_MsgSend</register>
+      <title>OTA_SERVICE_Transport_MsgSend</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_MsgSend</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-0435D032-19C1-4D4C-BD25-376A65AF68E6"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_RspRecv</register>
+      <title>OTA_SERVICE_Transport_RspRecv</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_RspRecv</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-B86B3087-E346-4ABD-83B5-565AF5C76BF4"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_ackResp</register>
+      <title>OTA_SERVICE_Transport_ackResp</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_ackResp</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-2A8C4FC6-AB3F-4F56-AFAD-EAEC95AA8770"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_Transport_CloseOta</register>
+      <title>OTA_SERVICE_Transport_CloseOta</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_Transport_CloseOta</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-12590574-8460-4790-9A58-0324493CC59B"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_FH_CtrlBlkRead</register>
+      <title>OTA_SERVICE_FH_CtrlBlkRead</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_FH_CtrlBlkRead</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-E1165A17-B4A2-4711-897E-B09ECEF50B26"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_FH_CtrlBlkWrite</register>
+      <title>OTA_SERVICE_FH_CtrlBlkWrite</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_FH_CtrlBlkWrite</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-99762913-2246-4419-A689-47DB04E495E4"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_FH_StateGet</register>
+      <title>OTA_SERVICE_FH_StateGet</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_FH_StateGet</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-6DE8F3D2-193B-470B-8D2C-E47E82885C60"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_FH_Tasks</register>
+      <title>OTA_SERVICE_FH_Tasks</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_FH_Tasks</keyword>
+   </keyworditem>
+   <keyworditem topicid="GUID-67C8BEB1-6370-4DF2-B347-11F5FE626EF5"
+                nocomponent="true"
+                parent="">
+      <device/>
+      <module/>
+      <component/>
+      <register>OTA_SERVICE_FH_TriggerReset</register>
+      <title>OTA_SERVICE_FH_TriggerReset</title>
+      <bitfield/>
+      <keyword>OTA_SERVICE_FH_TriggerReset</keyword>
+   </keyworditem>
+</keywords>
