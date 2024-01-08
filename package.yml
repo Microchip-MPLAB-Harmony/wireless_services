@@ -2,14 +2,14 @@ package:
   format-version: "v1.0.0"
   name: "wireless_services"
   type: "api"
-  status: "beta"
+  status: "production"
   required: false
-  version: "1.0.0"
+  version: "v1.0.0"
 
   dependencies:
     - name: "core"
       type: "package"
-      version: "v3.13.1"
+      version: "v3.13.2"
     - name: "wireless_rnbd"
       type: "package"
       version: "v2.0.0"
