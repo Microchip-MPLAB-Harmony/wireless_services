@@ -1,5 +1,6 @@
-"""*****************************************************************************
-* Copyright (C) 2023 Microchip Technology Inc. and its subsidiaries.
+// DOM-IGNORE-BEGIN
+/*******************************************************************************
+* Copyright (C) 2024 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -19,15 +20,31 @@
 * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
-*****************************************************************************"""
+*******************************************************************************/
+// DOM-IGNORE-END
+
+/*******************************************************************************
+  MPLAB Harmony Application Header File
+
+  Company:
+    Microchip Technology Inc.
+
+  File Name:
+    app_trspc_callbacks.h 
+
+  Summary:
+    This file contains API functions for the user to implement his business logic.
+
+  Description:
+    API functions for the user to implement his business logic.
+*******************************************************************************/
+
+#ifndef APP_TRSPC_CALLBACKS_H
+#define	APP_TRSPC_CALLBACKS_H
+
+#include "definitions.h" 
 
 
-def loadModule():
+void APP_WLS_TRSPC_DataReceived(uint16_t dataLen, uint8_t *p_data);
 
-    #creating OTA Service component
-    execfile(Module.getPath() + "services/common/ota/config/wls_ota.py")
-
-
-
-    #Ble component loading
-    execfile(Module.getPath() + '/services/ble/config/module_ble.py')
+#endif

@@ -1,0 +1,1 @@
+BLE_CPS_GapEventProcess(p_event);

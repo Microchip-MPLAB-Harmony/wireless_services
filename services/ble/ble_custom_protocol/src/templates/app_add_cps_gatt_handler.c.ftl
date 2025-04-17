@@ -1,0 +1,1 @@
+BLE_CPS_GattEventProcess(p_event);

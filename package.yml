@@ -13,4 +13,13 @@ package:
     - name: "wireless_rnbd"
       type: "package"
       version: "v2.0.0"
+    - name: "wireless_ble"
+      type: "package"
+      version: "v1.4.0"
+    - name: "wireless_pic32cxbz_wbz"
+      type: "package"
+      version: "v1.5.0"
+    - name: "shd"
+      type: "package"
+      version: "v1.1.0"      
 

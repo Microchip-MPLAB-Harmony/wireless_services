@@ -22,6 +22,7 @@ This repository contains the MPLAB® Harmony 3 wireless services for various hos
 | Folder     | Description                                               |
 | ---        | ---                                                       |
 | services/common       | Application services which supports more than one technology   |
+| services/ble    | Application services which are ble specific   |
 | config    |  Contains module configuration file              |
 | docs    |  Contains documentation in html format for offline viewing (to be used only after cloning this repository to a local machine).             |
 
